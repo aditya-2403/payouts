@@ -1,13 +1,58 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+    overflow-x: hidden;
+}
+.appbar{
+ width: 83.5em !important;
+ margin-left: -2.5em !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.search-bar{
+
+    padding: 4px;
+    border-radius: 4px;
+    background-color: #e6e6e6;
+}
+.feed-btn{
+    margin: .5em !important;
+}
+.overview-section{
+    justify-content: space-between;
+    margin-top: 1.5em;
+    margin-right: 1.5em;
+}
+.overview-drop{
+    border: .5px solid #c3c2c2 !important;
+}
+.overview-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    margin-right: 2.5em;
+}
+.transaction-table{
+    margin-right: 2em !important;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+.table-up{
+    display: flex;
+    justify-content: space-between;
+}
+.table-up-btn{
+    margin-top: .5em;
+}
+.bottom-nav{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #353c53;
+    width: 100%;
+    height: 8.7%;
+    border-radius: 15px;
+    align-items: center;
 }
